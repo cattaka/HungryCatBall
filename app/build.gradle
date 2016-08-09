@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        applicationId "net.cattaka.hungrycatball"
+        minSdkVersion 9
+        targetSdkVersion 18
+
+        testApplicationId "net.cattaka.hungrycatball.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/jbox2d-original.jar')
+}

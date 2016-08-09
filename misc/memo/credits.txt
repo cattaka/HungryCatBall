@@ -1,0 +1,28 @@
+HungryCat
+version 1.0.0
+Copyright 2011 by Takao Sumitomo
+
+Credits
+- Producer -
+Takao Sumitomo
+
+- Lead Designer -
+Takao Sumitomo
+
+- Graphic Artist -
+Takao Sumitomo
+
+- Level Designer -
+Takao Sumitomo
+
+- Sound -
+the freesound project
+http://www.freesound.org/
+MisterTood
+3bagbrew
+adcbicycle
+NoiseCollector
+hum
+
+- Powered By -
+JBox2D
